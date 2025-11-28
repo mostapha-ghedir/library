@@ -1,1 +1,10 @@
-test
+__pycache__/
+*.py[cod]
+.env
+.venv/
+backend/__pycache__
+backend/.env
+*.log
+.vscode/
+.idea/
+.DS_Store

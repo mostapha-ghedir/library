@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Books</title>
+</head>
+<body>
+    <h1>Library Books</h1>
+    <ul>
+        {% for book in books %}
+            <li><strong>{{ book.title }}</strong> by {{ book.author }}</li>
+        {% endfor %}
+    </ul>
+
+    <p> slam 3lokom</p>
+</body>
+</html>
